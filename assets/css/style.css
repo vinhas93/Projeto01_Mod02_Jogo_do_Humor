@@ -164,11 +164,11 @@ body{
 #corpo .balcao #chopp #botao{
    border:none;
    background-color: transparent;
-   transition: 1s
+   transition: .4s
 }
 #corpo .balcao #chopp #botao:hover{
    /* transform:skew(180deg,180deg); */
-   transform: rotate(20deg);
+   transform: scale(1.15);
 }
 
 /* ------------------ Barman ------------------- */
