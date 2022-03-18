@@ -10,9 +10,15 @@ body{
    height: 100%;
    
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 500px) {
    #corpo .balcao{
      flex-direction:column;
+   }
+   #corpo .entrada p{
+      margin: 2% 10%;
+   }
+   #corpo .barman p{
+      margin: 2% 10%
    }
 }
 
