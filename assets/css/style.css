@@ -10,19 +10,58 @@ body{
    height: 100%;
    
 }
+@media only screen and (max-width: 800px) {
+   #corpo .entrada #recepcao{
+      width: 75% !important;
+   }
+   #corpo .entrada img{
+      width: 45% !important;
+   }
+
+
+   #corpo .balcao .atual .imagens{
+      width:60% !important;
+   }
+   #corpo .balcao #chopp{
+      width: 18% !important;
+   }
+
+
+   #corpo .barman #autor{
+      width: 30% !important;
+   }
+}
 @media only screen and (max-width: 500px) {
-   #corpo .balcao{
-     flex-direction:column !important;
+   #corpo .entrada #recepcao{
+      width: 100% !important;
+   }
+   #corpo .entrada img{
+      width: 60% !important;
    }
    #corpo .entrada p{
       margin: 2% 8% !important;
+   }
+   
+
+   #corpo .balcao{
+     flex-direction:column !important;
+   }
+   #corpo .balcao .atual .imagens{
+      width:80% !important;
+   }
+   #corpo .balcao #chopp{
+      width: 24% !important;
+   }
+   
+   #corpo .barman #autor{
+      width: 40% !important;
    }
    #corpo .barman p{
       margin: 2% 8% !important;
    }
 }
 
-/* ------------------ Cabeçalho ------------------- */
+/* ------------------------------------ Cabeçalho ------------------------------------- */
 
 #header{
    font-size: 150%;
@@ -37,7 +76,7 @@ body{
    text-align: left;
 }
 
-/* ------------------ body ------------------- */
+/* ------------------------------------ body ------------------------------------- */
 #corpo{
    display: flex;
    flex-direction: column;
@@ -47,7 +86,7 @@ body{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* ------------------ Nav ------------------- */
+/* ------------------------------------ Nav ------------------------------------- */
 #corpo #navegador{
    /* border-bottom: ridge #747373 thin; */
    background-color: rgba(0, 0, 0, 0.199);
@@ -76,7 +115,7 @@ body{
    background-color: #B0613A;
    color: white;
 }
-/* ------------------ Entrada ------------------- */
+/* ------------------------------------ Entrada ------------------------------------- */
 #corpo .entrada{
    display: flex;
    flex-direction: column;
@@ -122,7 +161,7 @@ body{
    background-color: rgba(255, 255, 255, 0.493);
    box-shadow: 3px 3px 5px rgb(184, 184, 184);
 }
-/* ------------------ Balcão ------------------- */
+/* ------------------------------------ Balcão ------------------------------------- */
 #corpo .balcao{
    display: none;
    flex-direction:row;
@@ -177,7 +216,7 @@ body{
    transform: scale(1.15);
 }
 
-/* ------------------ Barman ------------------- */
+/* ------------------------------------ Barman ------------------------------------- */
 
 #corpo .barman{
    display: none;
