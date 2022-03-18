@@ -12,13 +12,13 @@ body{
 }
 @media only screen and (max-width: 500px) {
    #corpo .balcao{
-     flex-direction:column;
+     flex-direction:column !important;
    }
    #corpo .entrada p{
-      margin: 2% 10%;
+      margin: 2% 8% !important;
    }
    #corpo .barman p{
-      margin: 2% 10%
+      margin: 2% 8% !important;
    }
 }
 
